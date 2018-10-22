@@ -17,7 +17,7 @@ jobs:
 
     working_directory: ~/repo
 
-    steps:
+  steps:
       - checkout
 
       # Download and cache dependencies
@@ -54,7 +54,7 @@ jobs:
           path: test-reports
           destination: test-reports
 
-    deployment:
+   deployment:
       staging:
         branch: master
         heroku:
