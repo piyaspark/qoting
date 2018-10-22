@@ -54,13 +54,13 @@ jobs:
           path: test-reports
           destination: test-reports
 
-    deployment:
+deployment:
       staging:
         branch: master
         heroku:
           appname: qoting-postgre
 
-    workflows:
+workflows:
       version: 2
       test:
         jobs:
