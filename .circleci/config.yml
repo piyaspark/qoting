@@ -59,3 +59,9 @@ jobs:
         branch: master
         heroku:
           appname: qoting-postgre
+
+    workflows:
+      version: 2
+      test:
+        jobs:
+        - test
